@@ -1,0 +1,99 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+.logo-text {
+  color: var(--accent-color);
+}
+.nav .link {
+  color: var(--title-text-color);
+}
+.nav .link.current {
+  color: var(--accent-color);
+}
+.header-link {
+  color: var(--primary-text-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+.connection .link {
+  color: var(--primary-text-color);
+}
+.connection .link:hover,
+.connection .link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--white-text-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.preference-title {
+  color: var(--title-text-color);
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.team {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+
+.footer-page {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--white-text-color);
+}
+.footer-link {
+  color: var(--primary-text-color);
+}
+
+/* #FFFFFF  -  колір білого тексту
+#2196F3  - колір синього тексту
+#212121  - колір заголовків
+#757575  - колір основного текту
+rgba(255, 255, 255, 0.6) - колір адрес (футер) */
+
+/* #2F303A
+#E5E5E5    кольори фонів
+#F5F4FA  */
