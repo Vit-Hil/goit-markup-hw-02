@@ -4,36 +4,55 @@
   --accent-color: #2196f3;
   --white-text-color: #ffffff;
 }
+
+/* * {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+} */
+
 body {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
   color: var(--primary-text-color);
   background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /* header */
 
 .logo {
   color: var(--title-text-color);
-}
-.logo:hover {
-  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-text {
   color: var(--accent-color);
+}
+.header-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .nav .link {
   color: var(--title-text-color);
 }
 .nav .link.current {
   color: var(--accent-color);
-}
-.header-link {
-  color: var(--primary-text-color);
 }
 .nav .link:hover,
 .nav .link:focus {
@@ -49,31 +68,65 @@ body {
 
 /* main */
 
+/* hero */
+
 .hero {
   background-color: #2f303a;
 }
-
 .hero-title {
   color: var(--white-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
+
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 .preference-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .section-team {
   background-color: #f5f4fa;
 }
 .team {
   color: var(--title-text-color);
-}
 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+}
 /* button */
 
-.button {
+[type="button"] {
+  cursor: pointer;
+}
+
+.button-hero {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background: #188ce8;
 }
 
 /* footer */
@@ -81,10 +134,34 @@ body {
 .footer-page {
   background-color: #2f303a;
 }
-.footer-logo {
+.address {
+  color: var(--white-text-color);
+}
+.footer-page .logo {
   color: var(--white-text-color);
 }
 .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+
+.portfolio-filter {
+  color: var(--title-text-color);
+}
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+  color: var(--white-text-color);
+  background-color: #2196f3;
+}
+.title-project {
+  color: var(--title-text-color);
+}
+.portfolio-description {
   color: var(--primary-text-color);
 }
 
@@ -93,7 +170,3 @@ body {
 #212121  - колір заголовків
 #757575  - колір основного текту
 rgba(255, 255, 255, 0.6) - колір адрес (футер) */
-
-/* #2F303A
-#E5E5E5    кольори фонів
-#F5F4FA  */
