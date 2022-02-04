@@ -80,6 +80,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
@@ -128,6 +129,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  border: none;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -174,9 +176,11 @@ body {
 }
 .title-project {
   color: var(--title-text-color);
+  font-size: 18px;
 }
 .portfolio-description {
   color: var(--primary-text-color);
+  font-size: 16px;
 }
 
 /* #FFFFFF  -  колір білого тексту
