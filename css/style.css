@@ -47,6 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav .link {
   color: var(--title-text-color);
@@ -129,6 +130,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   border: none;
 }
 .button-hero:hover,
@@ -168,6 +170,9 @@ body {
 
 .portfolio-filter {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .portfolio-filter:hover,
 .portfolio-filter:focus {
@@ -177,10 +182,13 @@ body {
 .title-project {
   color: var(--title-text-color);
   font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-description {
   color: var(--primary-text-color);
   font-size: 16px;
+  line-height: 1.87;
 }
 
 /* #FFFFFF  -  колір білого тексту
